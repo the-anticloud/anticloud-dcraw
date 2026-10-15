@@ -1,14 +1,12 @@
 # DCRAW
 
-> dcrawl is a simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.
+> Mirror of Dave Coffin's dcraw This repository contains an unofficial mirror of Dave Coffin's dcraw with full version history.
 
-**Category:** CAMERAS · **Ecosystem:** python · **Vendored upstream:** https://github.com/kgretzky/dcrawl · **Pinned commit:** `3273c35bfb7ec05ebed60f37aac87bf602b40401` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/kgretzky/dcrawl` as the implementation for the `DCRAW` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** CAMERAS · **Ecosystem:** python · **Vendored upstream:** https://github.com/ncruces/dcraw · **Pinned commit:** `8fe4d3825595816ea7d6880d9253f9edd143cacb` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-dcrawl is a simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.
+Mirror of Dave Coffin's dcraw This repository contains an unofficial mirror of Dave Coffin's dcraw with full version history.
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -21,10 +19,7 @@ pip install -e .
 
 ## Usage
 
-```
-go build dcrawl.go
-./dcrawl -url http://wired.com -out ~/domain_lists/domains1.txt -t 8
-```
+See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
 
 ## Anticloud Overlay
 
@@ -66,7 +61,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-88a3091529565d8c71f0f38e841133c254ee14d1e8b37f54c29b52e8b722a979
+2060a426e6bab6fc34fe10df5904de15e13860999b074e889b913b6a0a2cbfb5
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

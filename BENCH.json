@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "3273c35bfb7ec05ebed60f37aac87bf602b40401",
-   "url": "https://github.com/kgretzky/dcrawl",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master"
+   "url": "https://github.com/ncruces/dcraw",
+   "head": "8fe4d3825595816ea7d6880d9253f9edd143cacb",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/kgretzky/dcrawl"
   }
  }
 }
